@@ -1,6 +1,7 @@
 {
-  "aiModel": "gemini-3.5-flash",
+  "aiModel": "gemini-3.6-flash",
   "aiFallbackModel": "gemini-3.5-flash-lite",
+  "aiReviewModel": "gemini-3.8-flash",
   "aiTextModel": "",
   "aiReasoningEffort": "minimal",
   "visionSystemPrompt": "",
