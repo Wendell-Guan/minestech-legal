@@ -29,10 +29,10 @@
 <h1>Minestech Privacy Policy</h1>
 <p class="muted">Effective 15 November 2026 · Minestech is published by DIGITAL PULSE LLC</p>
 
-<p>Minestech is a field map for mining work: it shows your position, records tracks, and stores markers and claim boundaries. This policy explains what data the app handles and where it goes. We do not sell data, show ads, or use analytics or tracking SDKs.</p>
+<p>Minestech is a field map for mining work: it shows your position, records tracks, and stores markers and claim boundaries. This policy explains what data the app handles and where it goes. We do not sell data, show ads, track you across apps, or use third-party analytics SDKs. The only data we receive is the diagnostics described below, which you can switch off.</p>
 
 <h2>Location</h2>
-<p>Your location is used on your device to show your position, record tracks (including in the background while a recording is running, if you allow "Always"), and place markers. Tracks, markers and claims are stored on your device and, if iCloud is enabled, in your private iCloud database. We do not receive them.</p>
+<p>Your location is used on your device to show your position, record tracks (including in the background while a recording is running, if you allow "Always"), and place markers. Tracks, markers and claims are stored on your device and, if iCloud is enabled, in your private iCloud database. We do not receive them, except the coordinates of imports described under Diagnostics.</p>
 
 <h2>iCloud sync and sharing</h2>
 <p>Markers, claims and tracks sync through Apple's CloudKit to your own private iCloud database. When you share a marker or a team with someone, Apple stores the shared records so the people you invited can access them. This data is governed by Apple's privacy policy; we have no access to it.</p>
@@ -50,7 +50,17 @@
 <p>Map tiles and overlays are downloaded from Apple Maps and from the layer providers you enable (for example OpenStreetMap, OpenTopoMap, Esri, MapBiomas, Google Earth Engine and Amazon Mining Watch). As with any website, these providers receive your IP address and the map area being requested.</p>
 
 <h2>Camera and photos</h2>
-<p>The camera is used to scan QR codes and to photograph coordinate documents. Photos you pick are read only when you choose them. Images are not uploaded unless you use AI recognition as described above.</p>
+<p>The camera is used to scan QR codes and to photograph coordinate documents. Photos you pick are read only when you choose them. Images are not uploaded unless you use AI recognition as described above, or import a photo while Diagnostics is on.</p>
+
+<h2>Diagnostics</h2>
+<p>To find and fix recognition problems and bugs, the app sends the following to us when <em>Settings → Diagnostics → Help improve recognition</em> is on (it is on by default):</p>
+<ul>
+<li>photos you import for coordinate recognition, and text you paste for coordinate reading;</li>
+<li>the coordinates the app recognised, the AI service's reply, and the points and claim name you finally saved;</li>
+<li>error messages and crash or freeze reports;</li>
+<li>app version, device model, iOS version, app language, and a random ID created when the app is installed.</li>
+</ul>
+<p>This data is stored in the app's Apple CloudKit database, readable only by us. Apple also attaches an anonymous ID that is specific to this app. It is not linked to your name or email, and we use it only to diagnose and improve the app. We delete it when it is no longer needed and within 12 months. Switch the setting off to stop sending; data already sent can be deleted on request by email.</p>
 
 <h2>Purchases</h2>
 <p>Subscriptions are processed by Apple. We receive no payment details.</p>
@@ -71,10 +81,10 @@
 <h1>Minestech 隐私政策</h1>
 <p class="muted">生效日期：2026 年 11 月 15 日 · Minestech 由 DIGITAL PULSE LLC 发布</p>
 
-<p>Minestech 是一款用于矿区作业的野外地图应用，可以显示你的位置、记录轨迹，并保存标记和矿权边界。本政策说明应用会处理哪些数据，以及这些数据去往何处。我们不出售数据，不投放广告，也不使用任何统计或追踪类 SDK。</p>
+<p>Minestech 是一款用于矿区作业的野外地图应用，可以显示你的位置、记录轨迹，并保存标记和矿权边界。本政策说明应用会处理哪些数据，以及这些数据去往何处。我们不出售数据，不投放广告，不跨应用追踪你，也不使用第三方统计 SDK。我们收到的数据只有下文「诊断」部分所列内容，你可以随时关闭。</p>
 
 <h2>位置</h2>
-<p>你的位置在设备本地使用，用于显示当前位置、记录轨迹和放置标记。如果你允许「始终」定位，正在记录轨迹时会在后台继续获取位置。轨迹、标记和矿权保存在你的设备上；如果开启了 iCloud，也会保存在你自己的 iCloud 私有数据库中。我们不会收到这些数据。</p>
+<p>你的位置在设备本地使用，用于显示当前位置、记录轨迹和放置标记。如果你允许「始终」定位，正在记录轨迹时会在后台继续获取位置。轨迹、标记和矿权保存在你的设备上；如果开启了 iCloud，也会保存在你自己的 iCloud 私有数据库中。除下文「诊断」部分所述的导入坐标外，我们不会收到这些数据。</p>
 
 <h2>iCloud 同步与分享</h2>
 <p>标记、矿权和轨迹通过 Apple 的 CloudKit 同步到你自己的 iCloud 私有数据库。当你把标记或团队分享给他人时，Apple 会保存被分享的记录，供你邀请的人访问。这些数据受 Apple 隐私政策约束，我们无法访问。</p>
@@ -92,7 +102,17 @@
 <p>地图瓦片和叠加图层来自 Apple 地图，以及你启用的图层提供方（例如 OpenStreetMap、OpenTopoMap、Esri、MapBiomas、Google Earth Engine 和 Amazon Mining Watch）。和访问任何网站一样，这些提供方会收到你的 IP 地址和所请求的地图范围。</p>
 
 <h2>相机与照片</h2>
-<p>相机用于扫描二维码和拍摄坐标文件。你挑选的照片只会在你选择时被读取。除非你按上文所述使用 AI 识别，否则图片不会上传。</p>
+<p>相机用于扫描二维码和拍摄坐标文件。你挑选的照片只会在你选择时被读取。除非你按上文所述使用 AI 识别，或在开启「诊断」时导入照片，否则图片不会上传。</p>
+
+<h2>诊断</h2>
+<p>为了发现并修复识别问题和其他错误，当「设置 → 诊断 → 帮助改进识别」开启时（默认开启），应用会把以下内容发送给我们：</p>
+<ul>
+<li>你为识别坐标而导入的照片，以及你粘贴用于识别的文字；</li>
+<li>应用识别出的坐标、AI 服务的原始回复，以及你最终保存的点和矿区名称；</li>
+<li>错误信息，以及崩溃或卡死报告；</li>
+<li>应用版本、设备型号、iOS 版本、应用语言，以及安装时随机生成的 ID。</li>
+</ul>
+<p>这些数据保存在本应用的 Apple CloudKit 数据库中，只有我们可以读取。Apple 还会附上一个仅限本应用的匿名 ID。这些数据不与你的姓名或邮箱关联，只用于诊断和改进应用。不再需要时我们会删除，最长保留 12 个月。关闭该设置即可停止发送；已发送的数据可以发邮件要求删除。</p>
 
 <h2>购买</h2>
 <p>订阅由 Apple 处理，我们不会收到任何支付信息。</p>

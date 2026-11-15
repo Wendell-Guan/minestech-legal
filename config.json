@@ -1,0 +1,10 @@
+{
+  "aiModel": "gemini-3.5-flash-lite",
+  "aiFallbackModel": "gemini-3.5-flash",
+  "aiTextModel": "",
+  "visionSystemPrompt": "",
+  "visionUserPrompt": "",
+  "textSystemPrompt": "",
+  "telemetryEnabled": true,
+  "telemetryPhotos": true
+}
